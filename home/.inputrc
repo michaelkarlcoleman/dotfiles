@@ -1,0 +1,2 @@
+# prevent editing of prior history
+set revert-all-at-newline on

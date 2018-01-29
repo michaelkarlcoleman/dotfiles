@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -e
+
+ml purge
+ml use /projects/eb-racs/p/modules/all/
+ml +Emacs +git
+exec emacsclient -t -a ''
